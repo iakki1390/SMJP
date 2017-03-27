@@ -14,8 +14,8 @@ public class BrowserTest {
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
         System.out.println("Logged in successfully");
-        driver.quit();
+        //driver.quit();
         driver.close();
-        driver.navigate().to("www.yahoo.com");
+        //driver.navigate().to("www.yahoo.com");
     }
 }
