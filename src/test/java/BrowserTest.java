@@ -15,7 +15,7 @@ public class BrowserTest {
         driver.get("http://www.google.com");
         System.out.println("Logged in successfully");
         //driver.quit();
-        driver.close();
+        driver.quit();
         //driver.navigate().to("www.yahoo.com");
     }
 }
